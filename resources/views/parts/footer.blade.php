@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/app.css') }}" />
     <title>Document</title>
 </head>
@@ -28,7 +29,7 @@
                             <dd>〒810-0041</dd>
                             <dd>福岡県福岡市中央区大名1-３−41</dd>
                             <dd>プリオ大名ビル2F</dd>
-                            <dd>Tel 092-123-4567 Fax 092-123-4567</dd>
+                            <dd>Mail 8cology@gmail.com</dd>
                             <dd>福岡市営地下鉄天神駅 徒歩10分</dd>
                             <dd>火～日 AM 10:00 ～ PM 6:00 月曜定休</dd>
                         </dl>

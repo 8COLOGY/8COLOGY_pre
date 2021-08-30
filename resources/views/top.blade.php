@@ -48,7 +48,7 @@
     <div class="infog">
         <section id="section_infog">
             <h3 class=”text_title”><span style="color:forestgreen;">INFOGRAPHICS</span></h3>
-            <p>数字でみる8COLOGYの活動</p>
+            <h4>数字でみる8COLOGYの活動</h4>
             <p>これまでに回収したプラスチック容器の重さは…</p>
             <h3><span style="color:forestgreen;" class="count">12345</span>kg</h3>
         </section>
