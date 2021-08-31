@@ -82,7 +82,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
+  width: 250px;
   height: 35px;
   margin:10px auto;
   padding: 8px 16px;
@@ -97,8 +97,39 @@ body {
 
 }
 .open_btn:hover{
-    background:#000;
-    color:#fff;
+    color: #fff;
+    background:yellowgreen;
+    opacity: 0.5;
+    transition: .3s ease;
+}
+
+.open_btn_login{
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 35px;
+  margin:10px auto;
+  padding: 8px 16px;
+  margin-left: 20px;
+  color: gray;
+  background:lig;
+  font-weight: bold;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .3s ease;
+  border-radius: 10px;
+}
+.open_btn_login:hover{
+    /* background:lightgray;
+    color:white; */
+    opacity: 0.5;
     transition: .3s ease;
 }
 /*=========TOPビックロゴ===============*/
@@ -111,7 +142,15 @@ body {
   z-index: 20;
 }
 /*=========TOPイメージ===============*/
-.box{
+
+.topimage {
+  animation: rotate-anime 90s linear infinite;
+}
+@keyframes rotate-anime {
+  0%  {transform: rotate(0);}
+  100%  {transform: rotate(360deg);}
+}
+/* .box{
   animation: animName 90s linear infinite;
   background: url(../img/topimg.png);
   background-size: cover;
@@ -125,7 +164,7 @@ body {
   /* width:50px;
   height:50px;
   margin:20px; */
-}
+/* }
 @keyframes animName {
  0%{
     transform: rotate(0deg);
@@ -133,7 +172,7 @@ body {
 100%{
     transform: rotate(360deg);
    }
-}
+} */
 /*=========今すぐ始めるボタン===============*/
 .open_btn_now {
   position: relative;
@@ -158,9 +197,37 @@ body {
   border-radius: 10px;
   z-index: 10;
 }
-open_btn_now:hover{
-    background:#000;
-    color:#fff;
+.open_btn_now:hover{
+    color: #fff;
+    background:yellowgreen;
+    opacity: 0.5;
+    transition: .3s ease;
+}
+.open_btn_login_center {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  margin:10px auto;
+  padding: 8px 16px;
+  color:gray;
+  font-weight: bold;
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  border-radius: 3px; */
+  cursor: pointer;
+  transition: .3s ease;
+  border-radius: 10px;
+  z-index: 10;
+}
+.open_btn_login_center:hover{
+    color:gray;
+    opacity: 0.5;
     transition: .3s ease;
 }
 /*=========8COLOGYについて===============*/
