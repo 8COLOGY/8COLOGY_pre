@@ -39,7 +39,23 @@
                                 </div>
                             </div>
                         </div>
-                        <label for="trigger" class="open_btn">ログイン</label>
+                        <label for="trigger" class="open_btn">今すぐリサイクルを始める</label>
+                    </li>
+                    <li>
+                        <div class="popup_wrap" v-cloak>
+                            <input id="trigger" type="checkbox">
+                            <div class="popup_overlay">
+                                <label for="trigger" class="popup_trigger"></label>
+                                <div class="popup_content">
+                                    <label for="trigger" class="close_btn">×</label>
+                                    <p>QRコードをスキャンするとLINEの友だちに追加されます<br>
+                                        <img src="https://qr-official.line.me/sid/M/266kegaz.png"><br>
+                                        QRコードをスキャンするには、LINEアプリのコードリーダーをご利用ください。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <label for="trigger" class="open_btn_login">ログイン</label>
                     </li>
                 </ul>
             </div>
