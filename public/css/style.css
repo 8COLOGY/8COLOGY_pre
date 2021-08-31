@@ -142,7 +142,15 @@ body {
   z-index: 20;
 }
 /*=========TOPイメージ===============*/
-.box{
+
+.topimage {
+  animation: rotate-anime 90s linear infinite;
+}
+@keyframes rotate-anime {
+  0%  {transform: rotate(0);}
+  100%  {transform: rotate(360deg);}
+}
+/* .box{
   animation: animName 90s linear infinite;
   background: url(../img/topimg.png);
   background-size: cover;
@@ -156,7 +164,7 @@ body {
   /* width:50px;
   height:50px;
   margin:20px; */
-}
+/* }
 @keyframes animName {
  0%{
     transform: rotate(0deg);
@@ -164,7 +172,7 @@ body {
 100%{
     transform: rotate(360deg);
    }
-}
+} */
 /*=========今すぐ始めるボタン===============*/
 .open_btn_now {
   position: relative;

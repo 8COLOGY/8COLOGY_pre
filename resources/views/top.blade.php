@@ -22,7 +22,8 @@
         </div>
     </section>
     <!-- Topイメージ -->
-    <div class="box mx-auto"></div>
+    <!-- <div class="box mx-auto"></div> -->
+    <img src="img/topimg.png" class="topimage d-block mx-auto img-fluid" alt="Responsive image">
     <label id="btn_center" for="trigger" class="open_btn_now">今すぐリサイクルを始める</label>
     <label id="btn_center" for="trigger" class="open_btn_login_center">>>ログイン</label>
     <!-- 8COLOGYについて -->
