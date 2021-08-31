@@ -22,10 +22,11 @@
             <img src="img/logo_l.png" alt="toplogo">
         </div>
     </section>
-    <div class="box mx-auto"></div>
-    <!-- <img id="topimage" class="d-block mx-auto box" src="img/bigimg.png" alt="imagelogo"></div> -->
-    <!-- <p><a class="link" href="https://1-notes.com/css/rotate-animation/" target="_blank" rel="noopener">https://1-notes.com/rotate-animation/</a></p> -->
+    <!-- Topイメージ -->
+    <!-- <div class="box mx-auto"></div> -->
+    <img src="img/topimg.png" class="topimage d-block mx-auto img-fluid" alt="Responsive image">
     <label id="btn_center" for="trigger" class="open_btn_now">今すぐリサイクルを始める</label>
+    <label id="btn_center" for="trigger" class="open_btn_login_center">>>ログイン</label>
     <!-- 8COLOGYについて -->
     <div class="about">
         <section id="section_about">
@@ -52,6 +53,25 @@
             <p>これまでに回収したプラスチック容器の重さは…</p>
             <h3><span style="color:forestgreen;" class="count">12345</span>kg</h3>
         </section>
+    </div>
+    <!-- HOWTO -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md">
+                <p class="step howto_fonts" style="color:forestgreen;">STEP1</p><img src="img/wash.png" alt="news_img" width="400" height="400" class="rounded">
+                <div class="news_details">
+                    <dl>
+                        <dt class="">1.プラスチック容器をよく洗う</dt>
+                    </dl>
+                </div>
+            </div>
+            <div class="col-md">
+                コンテンツB
+            </div>
+            <div class="col-md">
+                コンテンツC
+            </div>
+        </div>
     </div>
     @include("parts.footer")
     <!-- 数字のカウントアップjs -->
