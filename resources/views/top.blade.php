@@ -16,7 +16,6 @@
     @include("parts.common")
     @include("parts.header")
     <!-- Topロゴ -->
-    <!-- Topイメージ -->
     <section id="section_top">
         <div class="toplogo">
             <img src="img/logo_l.png" alt="toplogo">
@@ -49,29 +48,47 @@
     <div class="infog">
         <section id="section_infog">
             <h3 class=”text_title”><span style="color:forestgreen;">INFOGRAPHICS</span></h3>
-            <p>数字でみる8COLOGYの活動</p>
+            <h4>数字でみる8COLOGYの活動</h4>
             <p>これまでに回収したプラスチック容器の重さは…</p>
-            <h3><span style="color:forestgreen;" class="count">12345</span>kg</h3>
+            <h3><span style="color:forestgreen;" class="count">12345</span>トン</h3>
         </section>
     </div>
-    <!-- HOWTO -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md">
-                <p class="step howto_fonts" style="color:forestgreen;">STEP1</p><img src="img/wash.png" alt="news_img" width="400" height="400" class="rounded">
+            <div class="col-md-3">
+                <h4 class="step howto_fonts" style="color:forestgreen;">STEP1</h4><img src="img/wash.png" alt="news_img" width="350" height="350" class="rounded">
                 <div class="news_details">
                     <dl>
-                        <dt class="">1.プラスチック容器をよく洗う</dt>
+                        <dt>1.プラスチック容器をよく洗う</dt>
                     </dl>
                 </div>
             </div>
-            <div class="col-md">
-                コンテンツB
+            <div class="col-md-3">
+                <h4 class="step howto_fonts" style="color:forestgreen;">STEP2</h4><img src="img/search_dustbox.png" alt="news_img" width="320" height="350" class="rounded">
+                <div class="news_details">
+                    <dl>
+                        <dt>2.近くの回収BOXを探す</dt>
+                    </dl>
+                </div>
             </div>
-            <div class="col-md">
-                コンテンツC
+            <div class="col-md-3">
+                <h4 class="step howto_fonts" style="color:forestgreen;">STEP3</h4><img src="img/dustbox.png" alt="news_img" width="400" height="350" class="rounded">
+                <div class="news_details">
+                    <dl>
+                        <dt>3.回収BOXに使用済みプラスチック容器を入れる</dt>
+                    </dl>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h4 class="step" style="color:forestgreen;">STEP4</h4><img src="img/coupon.png" alt="news_img" width="350" height="350" class="rounded">
+                <div class="news_details">
+                    <dl>
+                        <dt>4.COUPON獲得！</dt>
+                    </dl>
+                </div>
             </div>
         </div>
+    </div>
     </div>
     @include("parts.footer")
     <!-- 数字のカウントアップjs -->
