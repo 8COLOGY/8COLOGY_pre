@@ -10,9 +10,7 @@ body{
 .philosophy{
     opacity: 0.1;
 }
-.infomation{
-    opacity: 0.1;
-}
+
 p{
   position: absolute;
   top: 50%;
@@ -28,7 +26,24 @@ img{
   width: 100%;
 }
 /*=========企業概要===============*/
-.overview{
+.info{
   justify-content: center;
   align-items: center;
+  position: relative;
+  padding-top: 200px;  
+}
+
+.infomation{
+    opacity: 0.1;
+}
+
+.infomation_text{ 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  padding-top: 150px;
+  font-size: 1.0em;
 }

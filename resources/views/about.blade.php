@@ -24,24 +24,22 @@
                 大きな時代の変化の中で、廃プラスチックの再生資源化を推進していきたい。<br>
                 そんな思いから、「8COLOGY」は歩みを始めています。<br>
                 廃プラスチックの再生資源化はもちろんのこと、<br>
-                もったいないをなくすためのサービスを提供していきます。</p><br>
-        </div>
-        </p>
+                もったいないをなくすためのサービスを提供していきます。<br>
+                ロゴマークのコンセプトは、無限に続く自然環境保護活動。<br>
+                私たち8COLOGYのやるべきことは<br>
+                「もったいないをなくす」<br>
+                ということ。<br>
+                ロゴマークの初めの一文字に、無限に続くを表現する8をデザインしました。<br>
+            </p><br>
         </div>
         <!-- 企業概要 -->
-        <div class="info">
+        <div style="text-align:center;" class="info">
             <img class="infomation" src="img/infomation.png" alt="infomation">
-            <p id="btn_center">
-            <div class="row">
-                <div class="col-sm-4">組織名</div>
-                <div class="col-sm-8">8COLOGY</div>
-                <div class="col-sm-4">設立</div>
-                <div class="col-sm-8">2021年11月</div>
-                <div class="col-sm-4">代表</div>
-                <div class="col-sm-8">難波 佳代子</div>
-                <div class="col-sm-4">所在地</div>
-                <div class="col-sm-8">福岡県福岡市中央区大名1-３−41</div>
-            </div>
+            <p class="infomation_text" id="btn_center">
+                組織名：8COLOGY<br>
+                設立：2021年11月<br>
+                代表：難波 佳代子<br>
+                所在地：福岡県福岡市中央区大名1-３−41<br>
             </p>
         </div>
 
