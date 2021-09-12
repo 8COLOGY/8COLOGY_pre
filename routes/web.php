@@ -19,8 +19,10 @@ Route::get('/', 'TopPageController@show');
 //会社概要ページ
 Route::get('/about', 'AboutPageController@show');
 // お問い合わせフォーム
-Route::get('/inquiry', 'InquiryPageController@show');
-
+// Route::get('/inquiry', 'InquiryPageController@show');
+Route::get('/inquiry', 'InquiryController@show')->name('inquiry');
+Route::post('/inquiry/confirm', 'InquiryController@confirm');
+Route::post('/inquiry/finish', 'InquiryController@finish');
 Route::get('tests/test', 'TestController@index');
 
 Route::group(['prefix' => 'contact', 'middleware' => 'auth'], function () {
