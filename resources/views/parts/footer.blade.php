@@ -18,7 +18,7 @@
                     <ul class="navbar-nav list-inline">
                         <li><a href="{{ url('/') }}">ホーム</a></li>
                         <li><a href="{{ url('/about') }}">8COLOGYについて</a></li>
-                        <li><a href="{{ url('/inquiry') }}">お問い合わせ</a></li>
+                        <li><a href="{{ url('/index') }}">お問い合わせ</a></li>
                         <li><a href="#">プライバシーポリシー</a></li>
                     </ul>
                 </div>
