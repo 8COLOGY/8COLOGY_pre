@@ -39,15 +39,14 @@ hx.set_reference_unit(referenceUnit)
 hx.reset()
 hx.tare()
 print("Tare done! Add weight now...")
-key_name = '/home/pi/Desktop/8cology_scale/hx711py/cology-206480b62079.json'
-sheet_name = 'raspberrypiconnect'
+key_name = '/home/pi/Desktop/8cology_scale/hx711py/JSON file'
+sheet_name = 'work sheetname'
 
 #APIにログイン
 scope = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']
 credentials = ServiceAccountCredentials.from_json_keyfile_name(key_name, scope)
 gc = gspread.authorize(credentials)
-# SPREADSHEET_KEY = ‘1luiBG6DEPzRhEpne8Rjwp3fdx1hKtQBJzh_mGl3ejFc’
-worksheet = gc.open(sheet_name).worksheet('fromPi')
+worksheet = gc.open(sheet_name).worksheet( 'sheet name')
 while True:
     try:
         # val = hx.get_weight(5)
