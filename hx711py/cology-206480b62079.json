@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "cology",
+  "private_key_id": "206480b6207925ae901aa7899fe4cecd1206b1e0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCpjW4AXHxKi569\nN6aEFN0HNCFd9rKjw3Zp8rfvpti/r6ViXL4FHJm1RePSzFV1tVJw3Dw3F+xZXdRf\nc6jQ9otfz7e9xXoSxk9ZqEUSei7ncmb3WGIthFRu+5qqcfwZlYZ/7V2eBDhcvbJM\n5uhCELwn8EclqBbJztLKZfLx/jQ54gaw57MrP8sjuwOysir7SsMAFk5Uzq40/R6O\noKgzNy9FvhDzPtffZ5s62bK7MKMr+Gf3Xf+CZebTu2QY9LVdGGWJ6nYdlkihn0Gt\n+VzQ93ABoYXUkDT12AhWorZo0gNt4KO36EgvxKZZmsd9oJ5yzqf1bpIiVvqwx99Q\nez1yQCMZAgMBAAECggEABgD1rFJaDdcyDqPv8+Ubuv+x70Z3JqSbFq8TK4uiSO5W\nqjwbt+leeXxhL/OPkqCSK+AmizJgCn2PsbYSHB0gzAqaSGBb3VqTkHqMgJYeP1CO\nHBPPfSpehYQIAuFQopTIe5LrgdcHKmSGseGqx30ZdoYT9N3F+c0mqmdQAhjk30hG\ndUlw2c3qwB8f/xvRK+HQVSKT8nn2RJIPkQrBbJtqI/YYclD+zarhw4plYM9ie4zB\nqPUbMFY/KkYtlVt8k62/kca91td5lb14T4xJY0uJ2uPV12fQblKkkBTzBegcSO3Q\nG7N55sdTF9e6DYy9NQofmcWC1XMa1glqF5nShsQzoQKBgQDg/Pe15kQHcr4eEUWS\n6h798Xo9oPnWicmW2Unap9LjpO/ba6a8J2qltEs2ErPD2nnveFkZyx9yprOPIDQZ\nKzhZiOd3Pd4Tf8wJmpeWKKdTBfpisNzUy8hlk2nJZ6HmpU+fCrA8VYUNWvQlBmOc\nb1jdSDGOsqrCgVkFdHmrzRSP4QKBgQDA7FVajiJa2Kx22TH8XOdn5s8+DL3bLnQs\nZcCnaw9FM8K0gxdpmNTMVNsVCSZk9WHSHgzkkFrZHKb9sBafLsOnnU7E8wSDKAY0\n42zsxq9vvbQoEDL5HWh3QoZQZpELZARq5VUaX0qE6affl1liuqg0O3arRW3G9XLV\n8QfUPPdaOQKBgQDaLxf98683VePe/rrszVR+yeXUzD5c+kRfoJrJjASstK/SpuQM\nBWGcDmr9pkdkgIPNYnVt2RjHM7hf7Uf4vHwp/+UQMxQg7scs7RliCkyx69M0T/Xn\n+zN8pedp5LESHnBHeLMN35VnLTQkj7yb4TNZbIB6tPN6Krvs2VaA8CGnoQKBgChv\nYFRihgDUeRFP5JIoRrgYQEeZFBHkYqULjp2IauLuPljnQPj492D8SA7YpBt08tO/\nSKR/PQtUXgu95H/opUl0RxYweTmkIejj4eienBanhCMBgi2EZGjaoJwpYy0oAWUG\nPBgS8ON6tZy/dBSlWqvX6r9rBd81gqQkqKdrP8zBAoGAbt+LPkF1eu+iMLfG/Ifu\nERG8AWImNGm94UMazXM5ucT8d+dfZOyCjaqu1ifsd3ZEgQRVQV+Z96Id22CdBX2t\nmgTKsm6P8BH3g7LAXJV2+G0RMWr9vbRlwj0S6x7c89z7OID3US4WafEi5svlD056\nIGNwwrIvNF2rQYkJf5F6ack=\n-----END PRIVATE KEY-----\n",
+  "client_email": "raspberrypiconnect@cology.iam.gserviceaccount.com",
+  "client_id": "105752720385504185723",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/raspberrypiconnect%40cology.iam.gserviceaccount.com"
+}
